@@ -10,6 +10,7 @@ import 'dart:ui';
 export 'package:inline_calendar/src/cubit/calendar_cubit.dart';
 
 class InlineCalendar extends StatelessWidget implements PreferredSizeWidget {
+  // Maximum weeks to render
   final int maxWeeks = 12;
   final void Function(DateTime)? onChange;
   final CalendarCubit? controller;

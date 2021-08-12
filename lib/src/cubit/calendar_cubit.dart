@@ -9,6 +9,7 @@ class CalendarCubit extends Cubit<CalendarState> {
   final PageController pageController =
       PageController(initialPage: centralPage);
 
+  /// Creates a controller for an inline calendar.
   CalendarCubit() : super(CalendarState(selectedDate: DateTime.now()));
 
   set selectedDate(DateTime selectedDate) {

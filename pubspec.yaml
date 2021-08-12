@@ -1,6 +1,6 @@
 name: inline_calendar
-description: An inline calendar inspired by Outlook Calendar.
-version: 0.0.1
+description: An inline calendar inspired by Outlook Calendar with support of custom colors.
+version: 0.0.2
 homepage: https://github.com/omidh28/flutter_inline_calendar.git
 
 environment:

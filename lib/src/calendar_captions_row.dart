@@ -28,7 +28,7 @@ class CalendarCaptionsRow extends StatelessWidget {
     );
   }
 
-    List<Widget> _buildCaptionTiles(Locale locale, BuildContext context) {
+  List<Widget> _buildCaptionTiles(Locale locale, BuildContext context) {
     List<Widget> tiles = [];
     DateTime middleDate = DateTime.now();
     while (middleDate.weekday != middleWeekday) {
